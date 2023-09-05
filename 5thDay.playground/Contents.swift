@@ -4,15 +4,7 @@ var greeting = "Hello, playground"
 
 func checkStrings(first: String , second: String) -> Bool
 {
-    
-    if(first.sorted() == second.sorted())
-    {
-        return true
-    }
-    else
-    {
-        return false
-    }
+    first.sorted() == second.sorted()
 }
 
-checkStrings(first: "abcc", second: "cacb")
+checkStrings(first: "aabbcc", second: "abcacb")
