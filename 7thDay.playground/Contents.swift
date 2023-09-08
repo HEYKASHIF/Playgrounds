@@ -9,7 +9,16 @@ enum throwError: Error
 
 func sqrtt(number: Double) throws -> Double
 {
-    return sqrt(number)
+    if(number<1  || number>10000)
+    {
+        throw throwError.outOfBounds
+        
+    }
+    else
+    {
+        return sqrt(number)
+    }
+    
 }
 do
 {
