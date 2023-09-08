@@ -22,7 +22,7 @@ func sqrtt(number: Double) throws -> Double
 }
 do
 {
-    try sqrtt(number: 3.0)
+    try sqrtt(number: 100001)
     
 }
 catch
