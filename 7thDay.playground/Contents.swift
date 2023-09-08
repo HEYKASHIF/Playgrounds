@@ -11,5 +11,17 @@ func sqrtt(number: Double) throws -> Double
 {
     return sqrt(number)
 }
+do
+{
+    try
+    {
+        sqrtt(number: 3.0)
+    }
+    
+}
+catch
+{
+    
+}
 
-sqrtt(number: 3.0)
+
