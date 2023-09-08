@@ -1,7 +1,9 @@
 import Cocoa
 
 var greeting = "Hello, playground"
-func sqrtt(number: Int) throws -> Int
+func sqrtt(number: Double) throws -> Double
 {
-    return
+    return sqrt(number)
 }
+
+sqrtt(number: 3.0)
