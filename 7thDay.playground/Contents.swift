@@ -27,7 +27,7 @@ do
 }
 catch
 {
-    
+    print("Out Of Bounds")
 }
 
 
